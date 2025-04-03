@@ -31,6 +31,11 @@ plugins:
   - jekyll-feed
   - jekyll-sitemap
 
+collections:
+  pages:
+    output: true
+    permalink: /:name/
+
 # 语言环境
 locale: zh-CN
 
